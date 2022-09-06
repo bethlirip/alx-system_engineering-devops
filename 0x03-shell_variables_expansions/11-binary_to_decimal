@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'oibase=10; BINARY' | bc
+echo "$((2#$BINARY))"
