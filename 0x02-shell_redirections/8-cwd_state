@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%b" "$(ls -la)" > ls_cwd_content
+echo -e "$(ls -la|tail -6 head -1)"\n > ls_cwd_content
