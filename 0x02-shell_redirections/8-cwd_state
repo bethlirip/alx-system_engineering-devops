@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e "$(ls -la|tail -6 head -1)"\n > ls_cwd_content
+ls -la > ls_cwd_content
